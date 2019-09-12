@@ -1,0 +1,22 @@
+<head>
+  <script src="http://pypyjs.org/pypyjs-release/lib/Promise.min.js"></script>
+  <script src="http://pypyjs.org/pypyjs-release/lib/FunctionPromise.js"></script>
+  <script src="http://pypyjs.org/pypyjs-release/lib/pypyjs.js"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+  pypyjs.exec(
+    // Run some Python
+    'y = [x**2. for x in range(10)]'
+  ).then(function() {
+    // Transfer the value of y from Python to JavaScript
+    return pypyjs.get('y');
+  }).then(function(result) {
+    // Display an alert box with the value of y in it
+    alert(result);
+  });
+</script>
+</body>
+
+
