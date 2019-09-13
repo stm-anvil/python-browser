@@ -1,5 +1,5 @@
 # python-browser
-Python in the Browser examples
+Python in the Browser examples.
 
 Here's a [big table of technologies](http://stromberg.dnsalias.org/~strombrg/pybrowser/python-browser.html) (not created by me). It's a little out of date but there's a lot of useful information there.
 
